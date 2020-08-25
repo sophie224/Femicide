@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body class="contact-body">
+
+	<div class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5" id="mySidebar">
+	  	<a href="#" class="w3-bar-item">Introdution</a>
+	  	<a href="#" class="w3-bar-item ">About the Rroject</a>
+	  	<div>
+	  		<a href="#" class="w3-bar-item ">Chapter I</a>
+	  		<p>Targeted Killing of Women <br> and Girls in the Context <br> of Armed Conflict</p>
+	  	</div>
+	  	<div>
+	  		<a href="#" class="w3-bar-item ">Chapter II</a>
+	  		<p>War in abkhazia</p>
+	  	</div>
+	  	<a href="#" class="w3-bar-item " style="font-size:15px;"></a>
+	  	<a href="#" class="w3-bar-item ">Storymap</a>
+	</div>
+
+	<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+	<div>
+		<header class="header">
+  			<button class=" w3-xxlarge" onclick="w3_open()">&#9776;</button>
+			<h1>კონტაქტი</h1>
+		</header>
+		<h2 class="writeUs">მოგვწერეთ ქალზე <br> ძალადობის შესახებ</h2>
+		<form class="form" >
+			<div class="left-form" >
+				<div>
+					<div>
+				        <h4>რა მოხდა*</h4>
+				        <input type="text" name="userid">
+	                </div>
+
+	                <div>
+				        <h4>ვინ არის მოწმე: სახელი,გვარი,საკონტაქტო*</h4>
+				        <input type="text" name="userid">
+				    </div>
+				</div>
+
+				<div>
+					<div class="field" >
+						<h4>გამოგვიგზავნეთ ფოტო ან ვიდეო</h4>
+						<div class="select-section">
+						  	<input type="text" name="userid">
+						  	<button type="text" class="file_input_replacement">არჩევა</button>
+						  	<input type="file" name="uploaded_file" class="file_input_with_replacement">
+					  	</div>
+					</div>
+					
+					<div class="field">
+						<h4>გამოგვიგზავნეთ დამატებითი ფაილი</h4>
+					  	<div class="select-section">
+						  	<input type="text" name="userid">
+						  	<button type="text" class="file_input_replacement">არჩევა</button>
+						  	<input type="file" name="uploaded_file" class="file_input_with_replacement">
+					  	</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="right-form"  >
+				    <div>
+						<h4>სად მოხდა*</h4>
+				        <input type="text" name="userid">
+	                </div>
+
+	                <div>
+				        <h4 style="margin-top: 22px;">ბოლო ინფორმაცია დაზარალებულის მდგომარობის შესახებ: ადგილმდებარეობა,სავაადმყოფო,ქალაქი,საკონტაქტო*</h4>
+				        <input type="text" name="userid">
+	                </div>
+
+	                <div>
+				        <h4>ვინ არის მსხვერპლი: სახელი,გვარი,მის ახლობლებთან საკონტაქტო*</h4>
+				        <input type="text" name="userid">
+	                </div>
+
+	                <div>
+				        <h4>როგორ დაგიკავშირდეთ(email)*</h4>
+				       	<input type="email" name="userid">
+	                </div>
+			</div>
+		</form>
+
+		<div class="send-div">
+			<button>გაგზავნა</button>
+		</div>
+		
+		<footer class="white-footer">
+			<span>&#169; 2018 GIPA, ALL rights reserved.</span>
+		</footer>
+	</div>
+
+<script>
+
+	$(function(){
+		$('.file_input_replacement').click(function(){
+			var assocInput = $(this).siblings("input[type=file]");
+            console.log(assocInput);
+            assocInput.click();
+        });
+        $('.file_input_with_replacement').change(function(){
+	        var thisInput = $(this);
+	        var assocInput = thisInput.siblings("input.file_input_replacement");
+	        if (assocInput.length > 0) {
+	            var filename = (thisInput.val()).replace(/^.*[\\\/]/, '');
+	            assocInput.val(filename);
+	        }
+       	});
+    });
+
+	function w3_open() {
+		document.getElementById("mySidebar").style.display = "block";
+  		document.getElementById("myOverlay").style.display = "block";
+  		  		console.log("mySidebar");
+
+	}
+
+	function w3_close() {
+	  	document.getElementById("mySidebar").style.display = "none";
+	  	document.getElementById("myOverlay").style.display = "none";
+	}
+
+</script>
+</body>
+</html>

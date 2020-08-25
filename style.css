@@ -1,0 +1,497 @@
+
+/*saerto*/
+	@font-face {
+	    font-family: "bpg_mrgvlovani_caps_2010";
+	    src: url('./fonts/bpg_mrgvlovani_caps_2010.ttf');
+	}
+	@font-face {
+	    font-family: "bpg_arial_2009";
+	    src: url('./fonts/bpg_arial_2009.ttf');
+	}
+	a{
+		text-decoration: none;
+	}
+	.w3-button:hover{
+		background-color:transparent !important;
+	}
+	.w3-sidebar{
+		background-color: black !important;
+		color: white !important;
+		font-style: italic;
+		width: 250px !important;
+		padding-top: 70px;
+		font-size: 20px;
+	}
+	.header{
+		display: flex;
+	}
+	header h1{
+
+		font-weight: bold;
+		padding-left: 2%;
+		padding-top: 3%;
+		font-size:35px;
+		font-family: bpg_mrgvlovani_caps_2010;
+	}
+	header button{
+		font-weight: bold !important;
+		padding-left: 2% !important;
+    	padding-top: 43px !important;
+		margin-top: -10px;
+		border: none;
+    	background-color: transparent;
+    	cursor: pointer;
+	}
+	.w3-sidebar a:hover{
+		background-color: #3825B3;
+	}
+	.w3-xxlarge:focus{
+		outline: none;
+	}
+	.w3-xxlarge{
+		z-index: 2;
+	}
+	.w3-sidebar p{
+		font-size: 15px;
+		margin-top: 0px;
+		margin-left: 6%;
+	}
+	.black-footer{
+		padding: 8px 0;
+		color: white;
+		text-align: center;
+		background-color: black;
+		width: 100%;
+		height: 40px;
+		padding-left: 0px !important;
+	}
+	.white-footer{
+		padding: 8px 0;
+		color: black;
+		text-align: center;
+		background-color: white;
+		width: 100%;
+		height: 40px;
+		padding-left: 0px !important;
+	}
+	ul{
+		list-style-type: none;
+	}
+/*saerto END*/
+
+/*index*/
+	/*.index-first-div{
+		background-image: url(./img/gr1.png);
+		background-repeat: no-repeat;
+		width: 100%;
+		background-size: cover;
+		background-position: initial;
+	}*/
+	.lil-girl{
+		position: absolute;
+		width: 8%;
+	}
+	.crcl{
+		position: absolute;
+		width: 45%;
+		margin-left: 45%; 
+		margin-top: -35%;
+	}
+	.index-grl{
+		width: 100%;
+		position: absolute; 
+		margin-top: -660px;
+	}
+	.first-section p:first-child{
+		margin-top: -15px;
+		margin-bottom: 40px;  
+		
+	}
+	.first-section{
+		width: 40%;
+		padding-left: 7%;
+	}
+	.first-section h1{
+		margin-top: -55px;
+	    margin-left: 92px;
+	    font-size: 35px;
+	}
+	.first-section p{
+		font-size: 18px;
+	}
+	.second-section h1{
+		font-size: 30px;
+		padding-top: 5%;
+	} 
+	.second-section {
+	    color: white;
+		margin-top: 15%;
+	    padding-left: 7%;
+	    position: absolute;
+	    width: 80%;
+	}
+	.full-list{
+		display: flex;
+		margin-top: 5%;
+		font-size: 17px;
+	}
+	.left-list {
+		width: 60%;
+		margin-bottom: 5%;
+		width: 49%;
+	}
+	.right-list{
+		width: 51%;
+	}
+	.left-list span ,.right-list span{
+		display: flex;
+	}
+	.left-list p , .right-list p{
+		font-size: 15px;
+		margin-top: 3px;
+		margin-right: 10px;
+	}
+	.left-list span:not(:first-child){
+		margin-top: 25px;
+	}
+	.right-list span:not(:first-child){
+		margin-top: 25px;
+	}
+	.chapterI{
+		padding-top: 15%;
+		background-color: black;
+		color: white;
+	}
+	.full-title{
+		display: flex;
+		padding-top: 5%;
+		padding-left: 7%;
+	}
+	.full-title h1{
+		font-size: 45px;
+		font-weight: bold;
+	}
+	.full-title h2{
+		font-size: 25px;
+	    margin-left: 3%;
+	    margin-top: 10px;
+	}
+	.article{
+		padding-left: 7%;
+		padding-right:128px;
+	}
+	.article div{
+		width: 100%;
+		display: flex ;
+	}
+	.article div p{
+		width: 50%;
+	}
+	.white-article{
+		background-color: white;
+		color: white;
+	}
+	.first-article{
+		padding-top: 5%;
+		width: 40%;
+		padding-left: 7%;
+		margin-top: -145%;
+	}
+	.second-article{
+		position: absolute;
+		margin-top: 77%;
+		width: 40%;
+	    margin-left: 50%;
+	}
+	.third-article{
+		position: absolute;
+		padding-left: 7%;
+	    margin-top: 125%;
+	    width: 40%;
+	}
+	#chapterI{
+		color: white;
+	}
+	#chapterII{
+		background-color: transparent;
+		position: absolute;
+		margin-top: 150%;
+		width: 90%;
+	}
+	.chapterII-title{
+		display: flex; 
+	    padding-left: 7%;
+	    padding-top: 15%;
+	}
+	.chapterII-title h1{
+		font-size: 45px;
+	    font-weight: bold;
+	}
+	.chapterII-title h3{
+		margin-top: 35px;
+	    margin-left: 3%;
+	    font-size: 23px;
+	}
+	.chapterIIWhiteSection{
+		width: 40%;
+		padding-left: 7%;
+	}
+	.chapterIIBlackSection{
+		display: flex;
+		margin-top: 50%;
+		color: white;
+		padding-top: 5%;
+		padding-left: 7%;
+	}
+	.chapterII-left{
+		width: 50%;
+	}
+	.chapterII-left p{
+		font-size: 17px;
+	}
+	.chapterII-right{
+		width: 50%;
+		margin-left: 5%;
+	}
+	.chapterII-right button:focus{
+		outline: none;
+	}
+	.chapterII-right button{
+		font-weight: bold;
+		margin-top: 3%;
+		padding: 3%;
+	    border-radius: 14px;
+	    border: none;
+	    box-sizing: border-box;
+	    background-color: white;
+	}
+	.credits{
+		 margin-top: 315%;
+		margin-bottom: 7%;
+		background-color: white;
+		width: 100%;
+	}
+	.credits h3{
+		padding-left: 7%;
+		padding-top: 6%;
+	}
+	.credits-full-div{
+		display: flex;
+		padding:0 7%;
+
+	}
+	.credits-left{
+		width: 66%;
+	}
+	.credits-right{
+		width: 36%;
+	}
+	.credits-right p{
+		margin-left:10%;
+		font-weight: bold;
+	}
+	.credits-right ul li{
+		font-weight: bold;
+	}
+/*index END*/
+
+/*about*/
+
+	.blue-circle1{
+		position: absolute;
+    	width: 25%;
+    	height: 360px;
+   	 	margin-left: 75%;
+    	margin-top: 7%;
+	}
+	.grImg{
+		position: absolute;
+    	width: 50%;
+   	 	margin-left: 45%;
+    	margin-top: 7%;
+	}
+	.author-div{
+		background-image: url(./img/2img.png);
+		background-repeat: no-repeat;
+		width: 100%;
+		background-position: center;
+		background-size: cover;
+	}
+	.crclImg{
+		position: absolute;
+    	margin-top: 13%;
+    	width: 39%;
+    	margin-left: 45%;
+	}
+	.indexGrImg{
+		position: absolute;
+    	width: 100%;
+	}
+	.firstSmgr{
+		position: absolute;
+		width: 5%;
+		margin-left: 80%;
+	}
+	/*.about-first-div{
+		background-image: url(./img/2gr.png);
+		background-repeat: no-repeat;
+		height: 500px;
+		width: 100%;
+		background-position: center;
+		}*/
+	.about-first-section {
+		padding-left: 7%;
+		margin-top: 3%;
+		font-weight: bold;
+		font-family: bpg_arial_2009;
+	}
+	.about-first-section button:focus{
+		outline: none;
+	}
+	.about-first-section button{
+		padding: 20px;
+	    width: 35%;
+	    background-color: #3825B3;
+	    border-radius: 15px;
+	    font-family: bpg_arial_2009;
+	    border: none;
+	    margin:5% 0;
+	}
+	.about-first-section button a{
+		color: white;
+	    font-size: 15px;
+	}
+	.about-first-section p:first-child{
+		width: 35%;
+	}
+
+	.author{
+		color: white;
+		padding-top: 5%;
+		padding-left: 7%;
+	}
+	.author h1{
+		font-size: 50px;
+	    font-family: bpg_mrgvlovani_caps_2010;
+	}
+	.author p{
+		font-family: bpg_arial_2009;
+	}
+	.author-first-section{
+		display: flex;
+	}
+
+	.author-first-section p{
+		width: 40%;
+	}
+	.author-second-section{
+		margin-top: 20%;
+		padding-bottom: 10%;
+		width: 90%;
+	}
+	
+/*about END*/
+
+/*Contact*/
+	
+	
+
+	.contact-body{
+		background-image: url(./img/3bg.png);
+		background-repeat: no-repeat;
+		width: 100%;
+		background-position: center;
+		background-size: cover;
+		margin:0;
+		transition: background-color .5s;
+	}
+	input.file_input_with_replacement {display: none;}
+	input.file_input_replacement {
+	  background: #e2e2e2;
+	  padding: 10px;
+	  border: none;
+	}
+	
+	.writeUs{
+		padding-left: 7% ;
+		font-family: bpg_mrgvlovani_caps_2010 !important;
+		font-size:22px;
+	}
+	.select-section{
+		display: flex;
+		height: 46px;
+	}
+	/*button.file_input_replacement:focus{
+		outline: none;
+	}*/
+	button.file_input_replacement {
+		font-family:bpg_arial_2009;
+	 	background-color: #3825B3;
+	  	color: #fff; 
+	 	padding: 7px 10px; 
+	  	border: none; 
+		width: 21%;
+		font-size: 15px;
+		cursor: pointer;
+	}
+	input{
+		height: 46px;
+	    width: 59%;
+	}
+	input:focus{
+		outline: none;
+	}
+	.form {
+		padding-left: 7% ;
+		display: flex;
+	}
+	.form h4{
+		font-family:bpg_arial_2009 ;
+		margin-top: 45px;
+		margin-bottom: 2%;
+		font-size: 16px;
+	}
+	.left-form {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+	}
+	.right-form {
+		display: flex;
+		flex-direction: column;
+		width: 50%;
+	}
+	.field input{
+		width: 38%;
+	}
+	.send-div{
+		padding-left: 7%;
+	}
+	.send-div button{
+		width: 375px;
+		height: 46px;
+		font-family:bpg_arial_2009;
+		border: none;
+		color: white;
+		background-color: #3825B3;
+		margin-top: 5%;
+		font-size: 15px;
+		margin-bottom: 15%;
+		cursor: pointer;
+	}
+	.send-div button:focus{
+		outline: none;
+	}
+/*Contact END*/
+
+
+
+
+
+
+
+
+
+
+
+
